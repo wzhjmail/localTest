@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/Main/Main.iml" filepath="$PROJECT_DIR$/Main/Main.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootProcess/SpringBootProcess.iml" filepath="$PROJECT_DIR$/SpringBootProcess/SpringBootProcess.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study/Study.iml" filepath="$PROJECT_DIR$/Study/Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start-test/spring-boot-start-test.iml" filepath="$PROJECT_DIR$/spring-boot-start-test/spring-boot-start-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-cache/springboot-cache.iml" filepath="$PROJECT_DIR$/springboot-cache/springboot-cache.iml" />
     </modules>
   </component>
 </project>

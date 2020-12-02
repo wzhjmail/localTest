@@ -24,6 +24,7 @@
         <module>Study</module>
         <module>Main</module>
         <module>SpringBootProcess</module>
+        <module>spring-boot-start-test</module>
     </modules>
 
     <parent>

@@ -1,0 +1,6 @@
+projectKey=org.example:LocalTest
+serverUrl=http://localhost:9000
+serverVersion=6.6.0.32724
+dashboardUrl=http://localhost:9000/dashboard/index/org.example:LocalTest
+ceTaskId=AXYd6owehpVZr-ooZGc8
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXYd6owehpVZr-ooZGc8

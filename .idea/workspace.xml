@@ -1,7 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84dbc64d-c73d-4f4b-b671-7924e1615783" name="Default Changelist" comment="" />
+    <list default="true" id="84dbc64d-c73d-4f4b-b671-7924e1615783" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_wzj_starter_wzj_spring_boot_starter_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_wzj_starter_wzj_spring_boot_starter_autoconfigurer_0_0_1_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_53_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_21_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/src/main/java/com/listener/HelloApplicationContextInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/src/main/java/com/listener/HelloApplicationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/src/main/java/com/listener/HelloCommandLineRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/src/main/java/com/listener/HelloSpringApplicationRunListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/target/classes/com/listener/HelloApplicationContextInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/target/classes/com/listener/HelloApplicationRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/target/classes/com/listener/HelloCommandLineRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootProcess/target/classes/com/listener/HelloSpringApplicationRunListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/java/SM4/SM4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/java/SM4/SM4Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/java/SM4/SM4_Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/java/SM4/Sm4UtilUseful.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/java/SM4/ac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/java/SM4/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/java/SM4/sm4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test/java/SM4/sm4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/target/test-classes/SM4/SM4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/target/test-classes/SM4/SM4Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/target/test-classes/SM4/SM4_Context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/target/test-classes/SM4/Sm4UtilUseful.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-start-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-start-test/spring-boot-start-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-start-test/src/main/java/com/SpringBootStarterTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-start-test/src/main/java/com/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-start-test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-start-test/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-start-test/target/classes/com/SpringBootStarterTestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-start-test/target/classes/com/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/wzj/cache/SpringbootCacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/wzj/cache/bean/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/wzj/cache/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/wzj/cache/config/MyCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/wzj/cache/config/MyRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/wzj/cache/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/wzj/cache/mapper/DepartmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/wzj/cache/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/wzj/cache/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/src/test/java/com/wzj/cache/SpringbootCacheApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_14_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootProcess/src/main/java/com/SpringBootProcessApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProcess/src/main/java/com/SpringBootProcessApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Study/Study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Study/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +155,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Main/src/main/java/com/service/StudentService.java" root0="SKIP_INSPECTION" />
@@ -31,18 +176,23 @@
     </option>
   </component>
   <component name="ProjectId" id="1f5QZgN1gVmgckmXbkUvTcKDoRW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -80,13 +230,13 @@
       <recent name="$PROJECT_DIR$/Study/src/main/java/com/designpattern/代理模式" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootProcessApplication">
-    <configuration name="PanicBuying" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="redis.PanicBuying" />
-      <module name="Main" />
+  <component name="RunManager" selected="JUnit.SpringbootCacheApplicationTests.cacheManagerTest">
+    <configuration name="Department" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzj.cache.bean.Department" />
+      <module name="springboot-cache" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="redis.*" />
+          <option name="PATTERN" value="com.wzj.cache.bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,71 +244,89 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Temp" />
-      <module name="Main" />
+    <configuration name="MyCacheConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzj.cache.config.MyCacheConfig" />
+      <module name="springboot-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzj.cache.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PanicBuying" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Main" />
+    <configuration name="SpringbootCacheApplicationTests.cacheManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-cache" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="redis.*" />
+          <option name="PATTERN" value="com.wzj.cache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="redis" />
-      <option name="MAIN_CLASS_NAME" value="redis.PanicBuying" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PanicBuying.testPanicBuying" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="redis" />
-      <option name="MAIN_CLASS_NAME" value="redis.PanicBuying" />
-      <option name="METHOD_NAME" value="testPanicBuying" />
+      <option name="PACKAGE_NAME" value="com.wzj.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.wzj.cache.SpringbootCacheApplicationTests" />
+      <option name="METHOD_NAME" value="cacheManagerTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootProcessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringBootProcess" />
+    <configuration name="SpringbootCacheApplicationTests.redisEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-cache" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="com.wzj.cache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringBootProcessApplication" />
+      <option name="PACKAGE_NAME" value="com.wzj.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.wzj.cache.SpringbootCacheApplicationTests" />
+      <option name="METHOD_NAME" value="redisEmployeeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootCacheApplicationTests.tt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzj.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wzj.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.wzj.cache.SpringbootCacheApplicationTests" />
+      <option name="METHOD_NAME" value="tt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootCacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzj.cache.SpringbootCacheApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PanicBuying" />
-      <item itemvalue="Application.Temp" />
-      <item itemvalue="JUnit.PanicBuying.testPanicBuying" />
-      <item itemvalue="JUnit.PanicBuying" />
-      <item itemvalue="Spring Boot.SpringBootProcessApplication" />
+      <item itemvalue="Application.MyCacheConfig" />
+      <item itemvalue="JUnit.SpringbootCacheApplicationTests.tt" />
+      <item itemvalue="JUnit.SpringbootCacheApplicationTests.redisEmployeeTest" />
+      <item itemvalue="Spring Boot.SpringbootCacheApplication" />
+      <item itemvalue="JUnit.SpringbootCacheApplicationTests.cacheManagerTest" />
+      <item itemvalue="Application.Department" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringBootProcessApplication" />
-        <item itemvalue="Application.Temp" />
-        <item itemvalue="JUnit.PanicBuying.testPanicBuying" />
-        <item itemvalue="JUnit.PanicBuying" />
-        <item itemvalue="Application.PanicBuying" />
+        <item itemvalue="JUnit.SpringbootCacheApplicationTests.cacheManagerTest" />
+        <item itemvalue="Application.Department" />
+        <item itemvalue="JUnit.SpringbootCacheApplicationTests.redisEmployeeTest" />
+        <item itemvalue="JUnit.SpringbootCacheApplicationTests.tt" />
+        <item itemvalue="Application.MyCacheConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -232,164 +400,150 @@
       <workItem from="1604889458590" duration="8557000" />
       <workItem from="1604910636424" duration="3000" />
       <workItem from="1604987372318" duration="1618000" />
-      <workItem from="1605164089970" duration="1562000" />
+      <workItem from="1605164089970" duration="2676000" />
+      <workItem from="1605247745442" duration="24538000" />
+      <workItem from="1605579082026" duration="2002000" />
+      <workItem from="1605592012332" duration="13576000" />
+      <workItem from="1605684937088" duration="652000" />
+      <workItem from="1605700634755" duration="573000" />
+      <workItem from="1606009919194" duration="284000" />
+      <workItem from="1606123871998" duration="9665000" />
+      <workItem from="1606288019449" duration="11644000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="148" y="-862" key="#Inspections" timestamp="1605164309056">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
     <state x="148" y="-862" key="#Inspections/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605164309056" />
-    <state x="148" y="-862" key="#Notifications" timestamp="1597138364198">
+    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser" timestamp="1605265293776">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="148" y="-862" key="#Notifications/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1597138364198" />
-    <state x="148" y="-862" key="#Project_Structure" timestamp="1596702528824">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="148" y="-862" key="#Project_Structure/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1596702528824" />
-    <state x="12" y="-865" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596691971340">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="12" y="-865" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1596691971340" />
-    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser" timestamp="1604890703980">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1604890703980" />
+    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605265293776" />
     <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1602757218086" />
-    <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1596952952941" />
-    <state x="184" y="-844" width="1054" height="631" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1596597894212">
+    <state x="282" y="-1057" width="1226" height="1057" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605265260348">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="184" y="-844" width="1054" height="631" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1596597894212" />
-    <state x="137" y="-598" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596702477069">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="137" y="-598" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1596702477069" />
-    <state x="320" y="-639" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1596702479228">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="320" y="-639" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1596702479228" />
-    <state x="334" y="159" width="886" height="570" key="#xdebugger.evaluate" timestamp="1604904722989">
+    <state x="282" y="-1057" width="1226" height="1057" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605265260348" />
+    <state x="334" y="159" width="886" height="570" key="#xdebugger.evaluate" timestamp="1606125643927">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="334" y="159" width="681" height="573" key="#xdebugger.evaluate/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1604904722989" />
+    <state x="334" y="159" width="681" height="573" key="#xdebugger.evaluate/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606125643927" />
     <state x="187" y="-810" width="886" height="570" key="#xdebugger.evaluate/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604049269214" />
-    <state width="469" height="466" key="DebuggerActiveHint" timestamp="1604906940269">
+    <state width="469" height="466" key="DebuggerActiveHint" timestamp="1605527466049">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="469" height="466" key="DebuggerActiveHint/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1604906940269" />
+    <state width="469" height="466" key="DebuggerActiveHint/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605527466049" />
     <state width="413" height="387" key="DebuggerActiveHint/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1597808766486" />
     <state x="-312" y="-957" width="1720" height="857" key="DiffContextDialog" timestamp="1600140281209">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-312" y="-957" width="1720" height="857" key="DiffContextDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1600140281209" />
-    <state width="1878" height="308" key="GridCell.Tab.0.bottom" timestamp="1605167706794">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="331" key="GridCell.Tab.0.bottom" timestamp="1606818676581">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706794" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604822902636" />
+    <state width="1398" height="331" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606813435531" />
+    <state width="1398" height="331" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1606818676581" />
     <state width="1398" height="344" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604064608105" />
     <state width="1878" height="324" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890955" />
-    <state width="1878" height="308" key="GridCell.Tab.0.center" timestamp="1605167706793">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="331" key="GridCell.Tab.0.center" timestamp="1606818676578">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706793" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604822902635" />
+    <state width="1398" height="331" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606813435531" />
+    <state width="1398" height="331" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1606818676578" />
     <state width="1398" height="344" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604064608104" />
     <state width="1878" height="324" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890954" />
-    <state width="1878" height="308" key="GridCell.Tab.0.left" timestamp="1605167706792">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="331" key="GridCell.Tab.0.left" timestamp="1606818676574">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706792" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604822902635" />
+    <state width="1398" height="331" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606813435530" />
+    <state width="1398" height="331" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1606818676574" />
     <state width="1398" height="344" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604064608104" />
     <state width="1878" height="324" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890953" />
-    <state width="1878" height="308" key="GridCell.Tab.0.right" timestamp="1605167706793">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="331" key="GridCell.Tab.0.right" timestamp="1606818676579">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706793" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604822902636" />
+    <state width="1398" height="331" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606813435531" />
+    <state width="1398" height="331" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1606818676579" />
     <state width="1398" height="344" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604064608105" />
     <state width="1878" height="324" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890954" />
-    <state width="1878" height="308" key="GridCell.Tab.1.bottom" timestamp="1605167706795">
+    <state width="1878" height="424" key="GridCell.Tab.1.bottom" timestamp="1606294242748">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.1.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706795" />
-    <state width="1398" height="298" key="GridCell.Tab.1.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514601" />
+    <state width="1878" height="424" key="GridCell.Tab.1.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606294242748" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1605600459605" />
     <state width="1398" height="344" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604064608106" />
     <state width="1878" height="324" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890847" />
-    <state width="1878" height="308" key="GridCell.Tab.1.center" timestamp="1605167706794">
+    <state width="1878" height="424" key="GridCell.Tab.1.center" timestamp="1606294242746">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.1.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706794" />
-    <state width="1398" height="298" key="GridCell.Tab.1.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514601" />
+    <state width="1878" height="424" key="GridCell.Tab.1.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606294242746" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1605600459600" />
     <state width="1398" height="344" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1604064608106" />
     <state width="1878" height="324" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890847" />
-    <state width="1878" height="308" key="GridCell.Tab.1.left" timestamp="1605167706794">
+    <state width="1878" height="424" key="GridCell.Tab.1.left" timestamp="1606294242745">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.1.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706794" />
-    <state width="1398" height="298" key="GridCell.Tab.1.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514601" />
+    <state width="1878" height="424" key="GridCell.Tab.1.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606294242745" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1605600459600" />
     <state width="1398" height="344" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1604064608105" />
     <state width="1878" height="324" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890847" />
-    <state width="1878" height="308" key="GridCell.Tab.1.right" timestamp="1605167706795">
+    <state width="1878" height="424" key="GridCell.Tab.1.right" timestamp="1606294242747">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.1.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706795" />
-    <state width="1398" height="298" key="GridCell.Tab.1.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514601" />
+    <state width="1878" height="424" key="GridCell.Tab.1.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606294242747" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1605600459601" />
     <state width="1398" height="344" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1604064608106" />
     <state width="1878" height="324" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890847" />
-    <state width="1878" height="308" key="GridCell.Tab.2.bottom" timestamp="1605167706797">
+    <state width="1878" height="424" key="GridCell.Tab.2.bottom" timestamp="1606289653143">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.2.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706797" />
+    <state width="1878" height="424" key="GridCell.Tab.2.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606289653143" />
     <state width="1398" height="298" key="GridCell.Tab.2.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514603" />
     <state width="1398" height="518" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604064607975" />
     <state width="1878" height="324" key="GridCell.Tab.2.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890849" />
-    <state width="1878" height="308" key="GridCell.Tab.2.center" timestamp="1605167706796">
+    <state width="1878" height="424" key="GridCell.Tab.2.center" timestamp="1606289653141">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.2.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706796" />
+    <state width="1878" height="424" key="GridCell.Tab.2.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606289653141" />
     <state width="1398" height="298" key="GridCell.Tab.2.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514602" />
     <state width="1398" height="518" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1604064607975" />
     <state width="1878" height="324" key="GridCell.Tab.2.center/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890848" />
-    <state width="1878" height="308" key="GridCell.Tab.2.left" timestamp="1605167706795">
+    <state width="1878" height="424" key="GridCell.Tab.2.left" timestamp="1606289653140">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.2.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706795" />
+    <state width="1878" height="424" key="GridCell.Tab.2.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606289653140" />
     <state width="1398" height="298" key="GridCell.Tab.2.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514602" />
     <state width="1398" height="518" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1604064607974" />
     <state width="1878" height="324" key="GridCell.Tab.2.left/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890848" />
-    <state width="1878" height="308" key="GridCell.Tab.2.right" timestamp="1605167706797">
+    <state width="1878" height="424" key="GridCell.Tab.2.right" timestamp="1606289653142">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.2.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605167706797" />
+    <state width="1878" height="424" key="GridCell.Tab.2.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606289653142" />
     <state width="1398" height="298" key="GridCell.Tab.2.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514602" />
     <state width="1398" height="518" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1604064607975" />
     <state width="1878" height="324" key="GridCell.Tab.2.right/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890848" />
-    <state x="86" y="-865" key="Maven.ArtifactSearchDialog" timestamp="1604563001730">
+    <state x="86" y="-865" key="Maven.ArtifactSearchDialog" timestamp="1605509765564">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="86" y="-865" key="Maven.ArtifactSearchDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1604563001730" />
+    <state x="86" y="-865" key="Maven.ArtifactSearchDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605509765564" />
     <state x="374" y="182" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1600675636931" />
     <state x="184" y="69" width="1174" height="722" key="SettingsEditor" timestamp="1604480048364">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="-50" y="-850" width="1174" height="722" key="SettingsEditor/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1599821763515" />
     <state x="184" y="69" key="SettingsEditor/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604480048364" />
-    <state x="-212" y="-894" width="1720" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597301372391">
+    <state x="-212" y="-894" width="1720" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605601416579">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-212" y="-894" width="1720" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1597301372391" />
-    <state x="-80" y="-918" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596772365832">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="-80" y="-918" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1596772365832" />
+    <state x="-212" y="-894" width="1720" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605601416579" />
     <state x="74" y="-784" width="900" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604905818612">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
@@ -403,22 +557,21 @@
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-312" y="-957" width="1720" height="857" key="dock-window-2/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1600065719722" />
-    <state x="498" y="-871" width="673" height="472" key="find.popup" timestamp="1604907350868">
+    <state x="81" y="-882" width="944" height="472" key="find.popup" timestamp="1606293298980">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="498" y="-871" width="673" height="472" key="find.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1604907350868" />
+    <state x="81" y="-882" width="944" height="472" key="find.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606293298980" />
     <state x="199" y="161" width="673" height="472" key="find.popup/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604564902498" />
     <state x="199" y="161" width="673" height="472" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1600679238988" />
     <state x="265" y="189" width="898" height="569" key="find.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1600249251134" />
-    <state x="-260" y="-889" key="new project wizard" timestamp="1605164151846">
+    <state x="-260" y="-889" key="new project wizard" timestamp="1605259934376">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-260" y="-889" key="new project wizard/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605164151846" />
-    <state x="114" y="162" key="new project wizard/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1596610118367" />
-    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1604902123562">
+    <state x="-260" y="-889" key="new project wizard/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605259934376" />
+    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1606293318680">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1604902123562" />
+    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606293318680" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,13 +613,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringBootProcess/src/main/java/com/SpringBootProcessApplication.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
-          <line>271</line>
-          <option name="timeStamp" value="28" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.10.RELEASE/spring-context-5.2.10.RELEASE.jar!/org/springframework/cache/concurrent/ConcurrentMapCacheManager.class</url>
+          <line>89</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.10.RELEASE/spring-context-5.2.10.RELEASE.jar!/org/springframework/cache/concurrent/ConcurrentMapCache.class</url>
+          <line>58</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.10.RELEASE/spring-context-5.2.10.RELEASE.jar!/org/springframework/cache/concurrent/ConcurrentMapCache.class</url>
+          <line>73</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-cache/src/main/java/com/wzj/cache/config/MyCacheConfig.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.11.RELEASE/spring-data-redis-2.2.11.RELEASE.jar!/org/springframework/data/redis/cache/RedisCache.class</url>
+          <line>78</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
