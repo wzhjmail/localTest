@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+
+
+        function onClickB1() {
+            alert(124);
+
+            // window.location.href = "about:blank";
+            // window.close();
+
+            // try {
+            //     this.focus();
+            //     self.opener = this;
+            //     self.close();
+            // } catch (e) {
+            //
+            // }
+            //
+            // try {
+            //     window.open('', '_self', '');
+            //     window.close();
+            // } catch (e) {
+            //
+            // }
+
+            window.opener = null;
+            window.open(' ', '_self', ' ');
+            window.close();
+
+            // window.opener = null;
+            // var win = window.open(" ", "_self");
+            // win.close();
+            // //frame的时候
+            // top.close();
+
+            window.onbeforeunload = close;
+
+            window.onbeforeunload = close;
+        }
+
+    </script>
+</head>
+<body>
+<button id="b1" onclick="onClickB1()">在head中</button>
+</body>
+</html>
+

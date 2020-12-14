@@ -7,6 +7,12 @@ spring:
     broker-url:
   redis:
     host: 127.0.0.1
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+    mode: LEGACYHTML5
+    servlet:
+      content-type: text/html
 
 
 mybatis:

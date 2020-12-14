@@ -25,6 +25,8 @@
         <module>Main</module>
         <module>SpringBootProcess</module>
         <module>spring-boot-start-test</module>
+        <module>springboot-rabbitmq</module>
+        <module>springboot-es</module>
     </modules>
 
     <parent>
@@ -211,6 +213,7 @@
             <artifactId>spring-boot-starter-data-redis</artifactId>
             <version>2.2.5.RELEASE</version>
         </dependency>
+
     </dependencies>
 
 </project>

@@ -3,9 +3,11 @@ package com.wzj.cache.controller;
 import com.wzj.cache.bean.Employee;
 import com.wzj.cache.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  * @ClassName EmployeeController
@@ -13,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Author wzj
  * @Date 2020/11/13 19:10
  **/
-@RestController
+@Controller
 public class EmployeeController {
 
     @Autowired
@@ -39,5 +41,10 @@ public class EmployeeController {
     @GetMapping("/emp/lastname/{lastName}")
     public Employee getEmpByName(@PathVariable("lastName") String lastName) {
         return employeeService.getEmpByName(lastName);
+    }
+
+    @RequestMapping(value = "/emp", method = RequestMethod.GET)
+    public String get() {
+        return "abc";
     }
 }

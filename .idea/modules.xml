@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/Study/Study.iml" filepath="$PROJECT_DIR$/Study/Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-start-test/spring-boot-start-test.iml" filepath="$PROJECT_DIR$/spring-boot-start-test/spring-boot-start-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-cache/springboot-cache.iml" filepath="$PROJECT_DIR$/springboot-cache/springboot-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-es/springboot-es.iml" filepath="$PROJECT_DIR$/springboot-es/springboot-es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
     </modules>
   </component>
 </project>
