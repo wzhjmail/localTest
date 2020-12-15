@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import wzj.es.ESApplication;
 import wzj.es.bean.Article;
+import wzj.es.bean.Book;
+import wzj.es.repository.BookRepository;
 
 import java.io.IOException;
 
@@ -23,6 +25,23 @@ public class ESTest {
 
     @Autowired
     private JestClient jestClient;
+
+    @Autowired
+    private BookRepository bookRepository;
+
+    @Test
+    public void testRepository() {
+        //        Book book = new Book();
+        //        book.setId(1);
+        //        book.setBookName("西游记");
+        //        book.setAuthor("吴承恩");
+        //        bookRepository.save(book);
+
+        for (Book book : bookRepository.findByBookNameLike("游")) {
+            System.out.println(book);
+        }
+
+    }
 
     /**
      查看es中某个索引/wzj/news的所有文档
