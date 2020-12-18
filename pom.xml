@@ -27,6 +27,7 @@
         <module>spring-boot-start-test</module>
         <module>springboot-rabbitmq</module>
         <module>springboot-es</module>
+        <module>sringboot-task</module>
     </modules>
 
     <parent>
