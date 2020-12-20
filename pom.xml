@@ -28,6 +28,7 @@
         <module>springboot-rabbitmq</module>
         <module>springboot-es</module>
         <module>sringboot-task</module>
+        <module>springboot-security</module>
     </modules>
 
     <parent>

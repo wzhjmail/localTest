@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84dbc64d-c73d-4f4b-b671-7924e1615783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sringboot-task/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sringboot-task/src/main/java/wzj/com/TaskApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sringboot-task/src/main/java/wzj/com/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sringboot-task/src/main/java/wzj/com/service/AsyncService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sringboot-task/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sringboot-task/src/test/java/wzj/com/EmailTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sringboot-task/sringboot-task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/springboot-security.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/wzj/com/SecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/wzj/com/config/MySecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/SpringBootRabbitmq.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/SpringBootRabbitmq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/wzj/test/RabbitmqTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/wzj/test/RabbitmqTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/wzj/amqp/SpringBootRabbitmq.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/wzj/amqp/SpringBootRabbitmq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/test-classes/wzj/test/RabbitmqTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/target/test-classes/wzj/test/RabbitmqTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,7 @@
       <recent name="$PROJECT_DIR$/Study/src/main/java/com/designpattern/代理模式" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmailTest.sendComplexEmail">
+  <component name="RunManager" selected="JUnit.RabbitmqTest.testSendMessage">
     <configuration name="ESTest.testRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-es" />
       <extension name="coverage">
@@ -160,15 +162,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ESApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-es" />
+    <configuration name="RabbitmqTest.testSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wzj.es.*" />
+          <option name="PATTERN" value="wzj.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="wzj.es.ESApplication" />
+      <option name="PACKAGE_NAME" value="wzj.test" />
+      <option name="MAIN_CLASS_NAME" value="wzj.test.RabbitmqTest" />
+      <option name="METHOD_NAME" value="testSendMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,19 +200,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringbootCacheApplication" />
-      <item itemvalue="Spring Boot.ESApplication" />
       <item itemvalue="JUnit.ESTest.testRepository" />
       <item itemvalue="Spring Boot.TaskApplication" />
       <item itemvalue="JUnit.EmailTest.sendEmail" />
       <item itemvalue="JUnit.EmailTest.sendComplexEmail" />
+      <item itemvalue="JUnit.RabbitmqTest.testSendMessage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RabbitmqTest.testSendMessage" />
         <item itemvalue="JUnit.EmailTest.sendComplexEmail" />
         <item itemvalue="JUnit.EmailTest.sendEmail" />
         <item itemvalue="Spring Boot.TaskApplication" />
         <item itemvalue="JUnit.ESTest.testRepository" />
-        <item itemvalue="Spring Boot.ESApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +301,7 @@
       <workItem from="1607754493707" duration="504000" />
       <workItem from="1607755238088" duration="1813000" />
       <workItem from="1607757368058" duration="14104000" />
-      <workItem from="1607849592997" duration="18335000" />
+      <workItem from="1607849592997" duration="26044000" />
     </task>
     <servers />
   </component>
@@ -312,10 +317,10 @@
     </state>
     <state x="148" y="-862" key="#Inspections/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605164309056" />
     <state x="420" y="185" key="#Inspections/0.23.1440.877@0.23.1440.877" timestamp="1607756779588" />
-    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser" timestamp="1608011593143">
+    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser" timestamp="1608273143356">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608011593143" />
+    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608273143356" />
     <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1602757218086" />
     <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1607848211084" />
     <state x="282" y="-1057" width="1226" height="1057" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605265260348">
@@ -335,31 +340,31 @@
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-312" y="-957" width="1720" height="857" key="DiffContextDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1600140281209" />
-    <state width="1878" height="323" key="GridCell.Tab.0.bottom" timestamp="1608269780734">
+    <state width="1878" height="323" key="GridCell.Tab.0.bottom" timestamp="1608289258550">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608269780734" />
+    <state width="1878" height="323" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608289258550" />
     <state width="1398" height="331" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091305" />
     <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607853720239" />
     <state width="1878" height="324" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890955" />
-    <state width="1878" height="323" key="GridCell.Tab.0.center" timestamp="1608269780732">
+    <state width="1878" height="323" key="GridCell.Tab.0.center" timestamp="1608289258546">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608269780732" />
+    <state width="1878" height="323" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608289258546" />
     <state width="1398" height="331" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091303" />
     <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607853720238" />
     <state width="1878" height="324" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890954" />
-    <state width="1878" height="323" key="GridCell.Tab.0.left" timestamp="1608269780731">
+    <state width="1878" height="323" key="GridCell.Tab.0.left" timestamp="1608289258545">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608269780731" />
+    <state width="1878" height="323" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608289258545" />
     <state width="1398" height="331" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091302" />
     <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607853720237" />
     <state width="1878" height="324" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890953" />
-    <state width="1878" height="323" key="GridCell.Tab.0.right" timestamp="1608269780733">
+    <state width="1878" height="323" key="GridCell.Tab.0.right" timestamp="1608289258548">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608269780733" />
+    <state width="1878" height="323" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608289258548" />
     <state width="1398" height="331" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091303" />
     <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607853720239" />
     <state width="1878" height="324" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890954" />
@@ -451,26 +456,26 @@
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-312" y="-957" width="1720" height="857" key="dock-window-2/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1600065719722" />
-    <state x="81" y="-882" width="944" height="472" key="find.popup" timestamp="1608030453747">
+    <state x="81" y="-882" width="944" height="472" key="find.popup" timestamp="1608276884447">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="81" y="-882" width="944" height="472" key="find.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608030453747" />
+    <state x="81" y="-882" width="944" height="472" key="find.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608276884447" />
     <state x="199" y="161" width="673" height="472" key="find.popup/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604564902498" />
     <state x="199" y="161" width="673" height="472" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1607849736714" />
     <state x="265" y="189" width="898" height="569" key="find.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1600249251134" />
-    <state x="-260" y="-889" key="new project wizard" timestamp="1608030081874">
+    <state x="-138" y="-827" key="new project wizard" timestamp="1608270948122">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-260" y="-889" key="new project wizard/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608030081874" />
+    <state x="-138" y="-827" key="new project wizard/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608270948122" />
     <state x="114" y="23" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1607844798699" />
     <state x="213" y="-284" width="670" height="675" key="run.anything.popup" timestamp="1607942674670">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="213" y="-284" width="670" height="675" key="run.anything.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1607942674670" />
-    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup" timestamp="1607853531715">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1608272545934">
+      <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606293318680" />
+    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608272545934" />
     <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1607853531715" />
   </component>
   <component name="XDebuggerManager">

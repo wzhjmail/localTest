@@ -13,6 +13,7 @@
         <module name="springboot-es" />
         <module name="springboot-rabbitmq" />
         <module name="sringboot-task" />
+        <module name="springboot-security" />
         <module name="Main" />
         <module name="SpringBootProcess" />
       </profile>
@@ -24,6 +25,7 @@
       <module name="springboot-cache" target="1.8" />
       <module name="springboot-es" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
+      <module name="springboot-security" target="1.8" />
       <module name="SpringBootProcess" target="1.8" />
       <module name="sringboot-task" target="1.8" />
       <module name="Study" target="1.8" />
@@ -39,6 +41,7 @@
       <module name="springboot-cache" options="-parameters" />
       <module name="springboot-es" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
+      <module name="springboot-security" options="-parameters" />
       <module name="sringboot-task" options="-parameters" />
     </option>
   </component>
