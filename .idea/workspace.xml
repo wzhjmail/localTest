@@ -2,23 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84dbc64d-c73d-4f4b-b671-7924e1615783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-security/springboot-security.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/wzj/com/SecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-security/src/main/java/wzj/com/config/MySecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_58_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_jdbc_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_jdbc_spring_boot_starter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_transaction_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_distsql_parser_engine_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_distsql_parser_statement_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_encrypt_api_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_encrypt_common_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_encrypt_merge_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_encrypt_rewrite_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_infra_binder_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_infra_common_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_infra_context_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_infra_datetime_spi_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_infra_executor_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_infra_merge_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_infra_parser_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_infra_rewrite_engine_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_infra_route_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_jdbc_core_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_jdbc_spring_boot_starter_infra_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_replica_query_api_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_replica_query_common_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_replica_query_route_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_shadow_api_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_shadow_common_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_shadow_rewrite_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_shadow_route_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sharding_api_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sharding_common_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sharding_merge_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sharding_rewrite_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sharding_route_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sql_parser_engine_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sql_parser_mysql_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sql_parser_oracle_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sql_parser_postgresql_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sql_parser_spi_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sql_parser_sql92_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sql_parser_sqlserver_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_sql_parser_statement_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_system_datetime_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shardingsphere_shardingsphere_transaction_core_5_0_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_indy_2_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/main/java/thread/NUmAndLetterPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/main/java/thread/OddEvenPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/main/java/thread/PrintABCUsingLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/main/java/thread/PrintABCUsingLockCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/main/java/thread/PrintABCUsingSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/main/java/thread/PrintABCUsingWaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boo-sharding-jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boo-sharding-jdbc/spring-boo-sharding-jdbc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boo-sharding-jdbc/src/main/java/wzj/com/ShardingJDBCApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boo-sharding-jdbc/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/direct/Consumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/direct/Consumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/direct/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/fanout/Consumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/fanout/Consumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/fanout/Consumer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/fanout/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/utils/RabbitMQUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/workqueue/Customer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/workqueue/Customer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/workqueue/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sringboot-task/src/main/java/wzj/com/RetryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sringboot-task/src/main/java/wzj/com/service/RetryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/SpringBootRabbitmq.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/wzj/amqp/SpringBootRabbitmq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/wzj/test/RabbitmqTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/wzj/test/RabbitmqTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/wzj/amqp/SpringBootRabbitmq.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/wzj/amqp/SpringBootRabbitmq.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/test-classes/wzj/test/RabbitmqTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/target/test-classes/wzj/test/RabbitmqTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sringboot-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sringboot-task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sringboot-task/sringboot-task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sringboot-task/sringboot-task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sringboot-task/target/classes/wzj/com/TaskApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/sringboot-task/target/classes/wzj/com/TaskApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,29 +156,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31839082" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Study/src/main/java/com/designpattern/备忘录模式/game/b.java" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/springboot-cache/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/springboot-cache/src/main/resources" />
-      <recent name="$PROJECT_DIR$/Study/src/test/java/close" />
-      <recent name="$PROJECT_DIR$/src/main/resources/mapping" />
-      <recent name="$PROJECT_DIR$/src/main/resources/com/mapping" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.designpattern.策略模式" />
-      <recent name="com.designpattern.观察者模式.improve" />
-      <recent name="" />
-      <recent name="com.common" />
-      <recent name="com.designpattern.抽象工厂模式" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Study/src/main/java/com/designpattern/适配器模式/对象适配器" />
@@ -112,68 +173,83 @@
       <recent name="$PROJECT_DIR$/Main/src/main/java/com/annotation" />
       <recent name="$PROJECT_DIR$/Study/src/main/java/com/designpattern/代理模式" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="wzj.amqp.fanout" />
+      <recent name="com.designpattern.策略模式" />
+      <recent name="com.designpattern.观察者模式.improve" />
+      <recent name="" />
+      <recent name="com.common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot-cache/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/springboot-cache/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Study/src/test/java/close" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mapping" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/mapping" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RabbitmqTest.testSendMessage">
-    <configuration name="ESTest.testRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-es" />
+  <component name="RunManager" selected="Application.PrintABCUsingSemaphore">
+    <configuration name="NUmAndLetterPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.NUmAndLetterPrinter" />
+      <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wzj.test.*" />
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wzj.test" />
-      <option name="MAIN_CLASS_NAME" value="wzj.test.ESTest" />
-      <option name="METHOD_NAME" value="testRepository" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailTest.sendComplexEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sringboot-task" />
+    <configuration name="OddEvenPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.OddEvenPrint" />
+      <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wzj.com.*" />
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wzj.com" />
-      <option name="MAIN_CLASS_NAME" value="wzj.com.EmailTest" />
-      <option name="METHOD_NAME" value="sendComplexEmail" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailTest.sendEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sringboot-task" />
+    <configuration name="PrintABCUsingLockCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.PrintABCUsingLockCondition" />
+      <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wzj.com.*" />
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wzj.com" />
-      <option name="MAIN_CLASS_NAME" value="wzj.com.EmailTest" />
-      <option name="METHOD_NAME" value="sendEmail" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitmqTest.testSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-rabbitmq" />
+    <configuration name="PrintABCUsingSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.PrintABCUsingSemaphore" />
+      <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wzj.test.*" />
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wzj.test" />
-      <option name="MAIN_CLASS_NAME" value="wzj.test.RabbitmqTest" />
-      <option name="METHOD_NAME" value="testSendMessage" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintABCUsingWaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.PrintABCUsingWaitNotify" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,34 +261,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="sringboot-task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wzj.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="wzj.com.TaskApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.PrintABCUsingWaitNotify" />
+      <item itemvalue="Application.OddEvenPrint" />
+      <item itemvalue="Application.NUmAndLetterPrinter" />
+      <item itemvalue="Application.PrintABCUsingLockCondition" />
       <item itemvalue="Spring Boot.SpringbootCacheApplication" />
-      <item itemvalue="JUnit.ESTest.testRepository" />
-      <item itemvalue="Spring Boot.TaskApplication" />
-      <item itemvalue="JUnit.EmailTest.sendEmail" />
-      <item itemvalue="JUnit.EmailTest.sendComplexEmail" />
-      <item itemvalue="JUnit.RabbitmqTest.testSendMessage" />
+      <item itemvalue="Application.PrintABCUsingSemaphore" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RabbitmqTest.testSendMessage" />
-        <item itemvalue="JUnit.EmailTest.sendComplexEmail" />
-        <item itemvalue="JUnit.EmailTest.sendEmail" />
-        <item itemvalue="Spring Boot.TaskApplication" />
-        <item itemvalue="JUnit.ESTest.testRepository" />
+        <item itemvalue="Application.PrintABCUsingSemaphore" />
+        <item itemvalue="Application.PrintABCUsingLockCondition" />
+        <item itemvalue="Application.NUmAndLetterPrinter" />
+        <item itemvalue="Application.OddEvenPrint" />
+        <item itemvalue="Application.PrintABCUsingWaitNotify" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +364,11 @@
       <workItem from="1607754493707" duration="504000" />
       <workItem from="1607755238088" duration="1813000" />
       <workItem from="1607757368058" duration="14104000" />
-      <workItem from="1607849592997" duration="26044000" />
+      <workItem from="1607849592997" duration="38362000" />
+      <workItem from="1608608464595" duration="317000" />
+      <workItem from="1608608813567" duration="4250000" />
+      <workItem from="1608630218758" duration="11172000" />
+      <workItem from="1608703664314" duration="1227000" />
     </task>
     <servers />
   </component>
@@ -317,110 +384,114 @@
     </state>
     <state x="148" y="-862" key="#Inspections/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605164309056" />
     <state x="420" y="185" key="#Inspections/0.23.1440.877@0.23.1440.877" timestamp="1607756779588" />
-    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser" timestamp="1608273143356">
+    <state x="320" y="128" key="#Notifications" timestamp="1608703933821">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="128" key="#Notifications/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608703933821" />
+    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser" timestamp="1608635101736">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608273143356" />
+    <state x="299" y="-875" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608635101736" />
     <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1602757218086" />
     <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1607848211084" />
     <state x="282" y="-1057" width="1226" height="1057" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605265260348">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
     <state x="282" y="-1057" width="1226" height="1057" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605265260348" />
-    <state x="334" y="159" width="886" height="570" key="#xdebugger.evaluate" timestamp="1606125643927">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="334" y="159" width="681" height="573" key="#xdebugger.evaluate/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1606125643927" />
-    <state x="187" y="-810" width="886" height="570" key="#xdebugger.evaluate/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604049269214" />
-    <state width="469" height="466" key="DebuggerActiveHint" timestamp="1605527466049">
+    <state x="315" y="-596" width="840" height="573" key="#xdebugger.evaluate" timestamp="1608450867505">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="469" height="466" key="DebuggerActiveHint/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605527466049" />
+    <state x="315" y="-596" width="840" height="573" key="#xdebugger.evaluate/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608450867505" />
+    <state x="187" y="-810" width="886" height="570" key="#xdebugger.evaluate/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604049269214" />
+    <state width="505" height="466" key="DebuggerActiveHint" timestamp="1608450847867">
+      <screen x="-412" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="505" height="466" key="DebuggerActiveHint/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608450847867" />
     <state x="-312" y="-957" width="1720" height="857" key="DiffContextDialog" timestamp="1600140281209">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-312" y="-957" width="1720" height="857" key="DiffContextDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1600140281209" />
-    <state width="1878" height="323" key="GridCell.Tab.0.bottom" timestamp="1608289258550">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="247" key="GridCell.Tab.0.bottom" timestamp="1608704907789">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608289258550" />
-    <state width="1398" height="331" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091305" />
-    <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607853720239" />
+    <state width="1878" height="270" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608635371741" />
+    <state width="1398" height="247" key="GridCell.Tab.0.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608704907789" />
+    <state width="1878" height="270" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1608475847738" />
     <state width="1878" height="324" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890955" />
-    <state width="1878" height="323" key="GridCell.Tab.0.center" timestamp="1608289258546">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="247" key="GridCell.Tab.0.center" timestamp="1608704907786">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608289258546" />
-    <state width="1398" height="331" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091303" />
-    <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607853720238" />
+    <state width="1878" height="270" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608635371740" />
+    <state width="1398" height="247" key="GridCell.Tab.0.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608704907786" />
+    <state width="1878" height="270" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1608475847737" />
     <state width="1878" height="324" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890954" />
-    <state width="1878" height="323" key="GridCell.Tab.0.left" timestamp="1608289258545">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="247" key="GridCell.Tab.0.left" timestamp="1608704907785">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608289258545" />
-    <state width="1398" height="331" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091302" />
-    <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607853720237" />
+    <state width="1878" height="270" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608635371739" />
+    <state width="1398" height="247" key="GridCell.Tab.0.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608704907785" />
+    <state width="1878" height="270" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1608475847737" />
     <state width="1878" height="324" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890953" />
-    <state width="1878" height="323" key="GridCell.Tab.0.right" timestamp="1608289258548">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1398" height="247" key="GridCell.Tab.0.right" timestamp="1608704907787">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608289258548" />
-    <state width="1398" height="331" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091303" />
-    <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607853720239" />
+    <state width="1878" height="270" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608635371740" />
+    <state width="1398" height="247" key="GridCell.Tab.0.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608704907787" />
+    <state width="1878" height="270" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1608475847738" />
     <state width="1878" height="324" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890954" />
-    <state width="1878" height="323" key="GridCell.Tab.1.bottom" timestamp="1608263590193">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1878" height="387" key="GridCell.Tab.1.bottom" timestamp="1608703652818">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.1.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608263590193" />
-    <state width="1398" height="331" key="GridCell.Tab.1.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091307" />
+    <state width="1878" height="387" key="GridCell.Tab.1.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608635285173" />
+    <state width="1878" height="387" key="GridCell.Tab.1.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608703652818" />
     <state width="1398" height="317" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607853710553" />
     <state width="1878" height="324" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890847" />
-    <state width="1878" height="323" key="GridCell.Tab.1.center" timestamp="1608263590191">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1878" height="387" key="GridCell.Tab.1.center" timestamp="1608703652817">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.1.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608263590191" />
-    <state width="1398" height="331" key="GridCell.Tab.1.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091306" />
+    <state width="1878" height="387" key="GridCell.Tab.1.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608635285172" />
+    <state width="1878" height="387" key="GridCell.Tab.1.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608703652817" />
     <state width="1398" height="317" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1607853710552" />
     <state width="1878" height="324" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890847" />
-    <state width="1878" height="323" key="GridCell.Tab.1.left" timestamp="1608263590191">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1878" height="387" key="GridCell.Tab.1.left" timestamp="1608703652817">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.1.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608263590191" />
-    <state width="1398" height="331" key="GridCell.Tab.1.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091306" />
+    <state width="1878" height="387" key="GridCell.Tab.1.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608635285171" />
+    <state width="1878" height="387" key="GridCell.Tab.1.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608703652817" />
     <state width="1398" height="317" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1607853710552" />
     <state width="1878" height="324" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890847" />
-    <state width="1878" height="323" key="GridCell.Tab.1.right" timestamp="1608263590192">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state width="1878" height="387" key="GridCell.Tab.1.right" timestamp="1608703652817">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1878" height="323" key="GridCell.Tab.1.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608263590192" />
-    <state width="1398" height="331" key="GridCell.Tab.1.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1607053091307" />
+    <state width="1878" height="387" key="GridCell.Tab.1.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608635285172" />
+    <state width="1878" height="387" key="GridCell.Tab.1.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608703652817" />
     <state width="1398" height="317" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1607853710552" />
     <state width="1878" height="324" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890847" />
-    <state width="1878" height="317" key="GridCell.Tab.2.bottom" timestamp="1607941448884">
+    <state width="1878" height="317" key="GridCell.Tab.2.bottom" timestamp="1608434488908">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="317" key="GridCell.Tab.2.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1607941448884" />
+    <state width="1878" height="317" key="GridCell.Tab.2.bottom/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608434488908" />
     <state width="1398" height="298" key="GridCell.Tab.2.bottom/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514603" />
     <state width="1398" height="283" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607849521102" />
     <state width="1878" height="324" key="GridCell.Tab.2.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890849" />
-    <state width="1878" height="317" key="GridCell.Tab.2.center" timestamp="1607941448883">
+    <state width="1878" height="317" key="GridCell.Tab.2.center" timestamp="1608434488907">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="317" key="GridCell.Tab.2.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1607941448883" />
+    <state width="1878" height="317" key="GridCell.Tab.2.center/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608434488907" />
     <state width="1398" height="298" key="GridCell.Tab.2.center/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514602" />
     <state width="1398" height="283" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1607849521102" />
     <state width="1878" height="324" key="GridCell.Tab.2.center/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890848" />
-    <state width="1878" height="317" key="GridCell.Tab.2.left" timestamp="1607941448883">
+    <state width="1878" height="317" key="GridCell.Tab.2.left" timestamp="1608434488903">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="317" key="GridCell.Tab.2.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1607941448883" />
+    <state width="1878" height="317" key="GridCell.Tab.2.left/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608434488903" />
     <state width="1398" height="298" key="GridCell.Tab.2.left/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514602" />
     <state width="1398" height="283" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1607849521101" />
     <state width="1878" height="324" key="GridCell.Tab.2.left/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890848" />
-    <state width="1878" height="317" key="GridCell.Tab.2.right" timestamp="1607941448883">
+    <state width="1878" height="317" key="GridCell.Tab.2.right" timestamp="1608434488908">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="317" key="GridCell.Tab.2.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1607941448883" />
+    <state width="1878" height="317" key="GridCell.Tab.2.right/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608434488908" />
     <state width="1398" height="298" key="GridCell.Tab.2.right/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604565514602" />
     <state width="1398" height="283" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1607849521102" />
     <state width="1878" height="324" key="GridCell.Tab.2.right/0.23.1920.1057@0.23.1920.1057" timestamp="1600249890848" />
@@ -429,11 +500,11 @@
     </state>
     <state x="86" y="-865" key="Maven.ArtifactSearchDialog/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1605509765564" />
     <state x="374" y="182" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1607754277922" />
-    <state x="-50" y="-850" width="1174" height="722" key="SettingsEditor" timestamp="1607942686792">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state x="184" y="69" width="1174" height="722" key="SettingsEditor" timestamp="1608703916339">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="-50" y="-850" width="1174" height="722" key="SettingsEditor/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1607942686792" />
-    <state x="184" y="69" key="SettingsEditor/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604480048364" />
+    <state x="-50" y="-850" width="1174" height="722" key="SettingsEditor/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608634851685" />
+    <state x="184" y="69" key="SettingsEditor/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608703916339" />
     <state x="184" y="69" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1607758354075" />
     <state x="278" y="-790" width="543" height="524" key="StructurePopup" timestamp="1608011516320">
       <screen x="-412" y="-1057" width="1920" height="1057" />
@@ -452,30 +523,39 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="127" y="23" width="1313" height="686" key="dock-window-1/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608031041607" />
-    <state x="-312" y="-957" width="1720" height="857" key="dock-window-2" timestamp="1600065719722">
+    <state x="0" y="23" width="1440" height="739" key="dock-window-2" timestamp="1608450700618">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="0" y="23" width="1440" height="739" key="dock-window-2/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608450700618" />
+    <state x="0" y="23" width="1440" height="739" key="dock-window-3" timestamp="1608451368819">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="0" y="23" width="1440" height="739" key="dock-window-3/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608451368819" />
+    <state x="0" y="23" width="1440" height="739" key="dock-window-4" timestamp="1608461933822">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="0" y="23" width="1440" height="739" key="dock-window-4/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608461933822" />
+    <state x="81" y="-882" width="944" height="472" key="find.popup" timestamp="1608432974607">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-312" y="-957" width="1720" height="857" key="dock-window-2/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1600065719722" />
-    <state x="81" y="-882" width="944" height="472" key="find.popup" timestamp="1608276884447">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="81" y="-882" width="944" height="472" key="find.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608276884447" />
+    <state x="81" y="-882" width="944" height="472" key="find.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608432974607" />
     <state x="199" y="161" width="673" height="472" key="find.popup/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1604564902498" />
     <state x="199" y="161" width="673" height="472" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1607849736714" />
     <state x="265" y="189" width="898" height="569" key="find.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1600249251134" />
-    <state x="-138" y="-827" key="new project wizard" timestamp="1608270948122">
-      <screen x="-412" y="-1057" width="1920" height="1057" />
+    <state x="206" y="214" key="new project wizard" timestamp="1608608502381">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="-138" y="-827" key="new project wizard/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608270948122" />
+    <state x="206" y="214" key="new project wizard/0.23.1440.877/-412.-1057.1920.1057@0.23.1440.877" timestamp="1608608502381" />
     <state x="114" y="23" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1607844798699" />
     <state x="213" y="-284" width="670" height="675" key="run.anything.popup" timestamp="1607942674670">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="213" y="-284" width="670" height="675" key="run.anything.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1607942674670" />
-    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1608272545934">
+    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1608631320038">
       <screen x="-412" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608272545934" />
+    <state x="213" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-412.-1057.1920.1057@-412.-1057.1920.1057" timestamp="1608631320038" />
     <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1607853531715" />
   </component>
   <component name="XDebuggerManager">
@@ -555,6 +635,16 @@
           <url>file://$PROJECT_DIR$/springboot-es/src/test/java/wzj/test/ESTest.java</url>
           <line>94</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sringboot-task/src/main/java/wzj/com/RetryApplication.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rabbitmq/src/test/java/wzj/test/RabbitmqTest.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

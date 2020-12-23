@@ -29,6 +29,7 @@
         <module>springboot-es</module>
         <module>sringboot-task</module>
         <module>springboot-security</module>
+        <module>spring-boo-sharding-jdbc</module>
     </modules>
 
     <parent>

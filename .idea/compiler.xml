@@ -8,19 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-cache" />
+        <module name="SpringBootProcess" />
         <module name="spring-boot-start-test" />
         <module name="Study" />
         <module name="springboot-es" />
         <module name="springboot-rabbitmq" />
         <module name="sringboot-task" />
         <module name="springboot-security" />
+        <module name="spring-boo-sharding-jdbc" />
         <module name="Main" />
-        <module name="SpringBootProcess" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="LocalTest" target="1.8" />
       <module name="Main" target="1.8" />
+      <module name="spring-boo-sharding-jdbc" target="1.8" />
       <module name="spring-boot-start-test" target="1.8" />
       <module name="springboot-cache" target="1.8" />
       <module name="springboot-es" target="1.8" />
@@ -37,6 +39,7 @@
       <module name="Main" options="-parameters" />
       <module name="SpringBootProcess" options="-parameters" />
       <module name="Study" options="-parameters" />
+      <module name="spring-boo-sharding-jdbc" options="-parameters" />
       <module name="spring-boot-start-test" options="-parameters" />
       <module name="springboot-cache" options="-parameters" />
       <module name="springboot-es" options="-parameters" />
