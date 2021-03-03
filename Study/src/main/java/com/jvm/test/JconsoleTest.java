@@ -24,5 +24,10 @@ public class JconsoleTest {
             Thread.sleep(100);
             list.add(new Demo());
         }
+
+        String str = "234";
+        str.intern();
     }
+
+
 }

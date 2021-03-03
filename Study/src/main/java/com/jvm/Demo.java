@@ -1,5 +1,8 @@
 package com.jvm;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @ClassName Demo
  * @Description
@@ -8,5 +11,12 @@ package com.jvm;
  **/
 
 public class Demo {
-    private int[] ary = new int[128 * 1024];
+
+    public static List ll = new ArrayList();
+
+
+    public static void main(String args[]) {
+        ll.add(null);
+        System.out.println(ll);
+    }
 }

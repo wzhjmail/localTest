@@ -30,6 +30,8 @@
         <module>sringboot-task</module>
         <module>springboot-security</module>
         <module>spring-boo-sharding-jdbc</module>
+        <module>FlinkStudy</module>
+        <module>flink-study</module>
     </modules>
 
     <parent>
