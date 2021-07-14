@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="wzj.com.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="wzj.com.dto.UserDto">
+        <id column="id" jdbcType="NUMERIC" property="id" typeHandler="wzj.com.handler.BigDecimalTypeHandler"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, name
+  </sql>
+
+    <insert id="insert" parameterType="wzj.com.dto.UserDto">
+    insert into bap.STU(id, name)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR})
+  </insert>
+
+    <update id="updateById" parameterType="java.util.Map">
+       update bap.STU set name=#{name, jdbcType=VARCHAR}
+        where id=#{id,jdbcType=INTEGER}
+    </update>
+
+    <select id="getById" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select id,name from stu where id=#{id,jdbcType=INTEGER}
+    </select>
+</mapper>

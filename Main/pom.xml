@@ -88,7 +88,8 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
-            <version>2.10.0x</version>
+            <!--<version>2.10.0x</version>-->
+            <version>2.6.5</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.google.guava</groupId>
@@ -167,11 +168,6 @@
                     <groupId>io.netty</groupId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.meicai.dmall.ladder</groupId>
-            <artifactId>dmall-ladder-api</artifactId>
-            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.101tec</groupId>

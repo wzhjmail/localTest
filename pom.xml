@@ -30,7 +30,6 @@
         <module>sringboot-task</module>
         <module>springboot-security</module>
         <module>spring-boo-sharding-jdbc</module>
-        <module>FlinkStudy</module>
         <module>flink-study</module>
     </modules>
 
@@ -122,7 +121,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
-            <version>2.10.0x</version>
+            <version>2.6.5</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.google.guava</groupId>
