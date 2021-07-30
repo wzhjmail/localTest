@@ -49,17 +49,17 @@ public class ShardingEncryptorAes implements Encryptor {
         return str.substring(1, str.length() - 1);
     }
 
-    @Override
+    //@Override
     public String getType() {
         return "myaes";
     }
 
-    @Override
+    //@Override
     public Properties getProperties() {
         return properties;
     }
 
-    @Override
+    //@Override
     public void setProperties(Properties properties) {
 
     }

@@ -1,0 +1,106 @@
+server:
+  port: 8092
+spring:
+  shardingsphere:
+    datasource:
+      names: master
+      master:
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:oracle:thin:@11.1.198.168:1521:hnzf
+        driverClassName: oracle.jdbc.driver.OracleDriver
+        username: bap
+        password: bap
+
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        driverClassName: com.mysql.cj.jdbc.Driver
+#        url: jdbc:mysql://localhost:3306/mytest?serverTimezone=UTC&useSSL=true
+#        username: root
+#        password: wz091991
+    encrypt:
+      encryptors:
+        encryptor_aes:
+          type: RC4
+        #type: aes #--加密算法，支持取值有：aes,md5，也可以自定义算法-->
+        #          props:
+        #            aes.key.value: abcdef#ghij#klmn #--aes秘钥-->
+      tables:
+        STU:
+          columns:
+            name:
+              plainColumn: name
+              cipherColumn: name_en #数据库字段名-->
+              encryptor: encryptor_aes #加密方式-->
+    props:
+      max:
+        connections:
+          size:
+            per:
+              query: 50
+      sql:
+        show: true #是否显示sql-->
+      query:
+        with:
+          cipher:
+            column: true #是否根据加密字段查询-->
+
+mybatis:
+  mapperLocations: classpath*:mapping/*.xml
+  type-handlers-package: wzj.com.handler
+
+#spring:
+#  shardingsphere:
+#    datasource:
+#      names: ds0,ds1
+#      ds0:
+#        type: org.apache.commons.dbcp2.BasicDataSource
+#        driver-class-name: com.mysql.jdbc.Driver
+#        url: jdbc:mysql://localhost:3306/ds0
+#        username: root
+#        password: root
+#
+#      ds1:
+#        type: org.apache.commons.dbcp2.BasicDataSource
+#        driver-class-name: com.mysql.jdbc.Driver
+#        url: jdbc:mysql://localhost:3306/ds1
+#        username: root
+#        password: root
+#
+#    shardingsphere:
+#      props:
+#        sql:
+#          show: true #大坑sql输出日志
+#      datasource:
+#        names: m1
+#      sharding:
+#        tables:
+#          t_order:
+#            actual-data-nodes: m1.t_order_$->{1..2} #指定t_order表的数据分布情况，配置数据结点m1.t_order_1,m1.t_order_2
+#            key-generator: #指定t_order表的主键生成策略为SNOWFLAKE
+#              column: order_id
+#              type: SNOWFLAKE
+#            table-strategy:
+#              line: #指定t_order表的分片策略，分片策略博阿凯分片键和分片算法
+#                sharding-column: order_id
+#                algorithm-expression: t_order_$->{order_id % 2 + 1}
+#    rules:
+#      sharding:
+#        tables:
+#          t_order:
+#            actual-data-nodes: ds$->{0..1}.t_order$->{0..1}
+#            database-strategy:
+#              standard:
+#                sharding-column: user_id
+#                sharding-algorithm-name: database_inline
+#            table-strategy:
+#              standard:
+#                sharding-column: order_id
+#                sharding-algorithm-name: table_inline
+#        sharding-algorithms:
+#          database_inline:
+#            type: INLINE
+#            props:
+#              algorithm-expression: ds_${user_id % 2}
+#          table_inline:
+#            type: INLINE
+#            props.algorithm-expression: t_order_${order_id % 2}
+#

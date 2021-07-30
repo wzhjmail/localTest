@@ -39,23 +39,24 @@
             <version>1.2.6</version>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.oracle.database.jdbc</groupId>
             <artifactId>ojdbc8</artifactId>
             <version>19.7.0.0</version>
-        </dependency>
+        </dependency>-->
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.oracle.ojdbc</groupId>
             <artifactId>orai18n</artifactId>
             <version>19.3.0.0</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.apache.shardingsphere</groupId>
             <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
+            <!--<version>4.1.1-SNAPSHOT</version>-->
             <version>4.1.1</version>
-        <exclusions>
+       <exclusions>
             <exclusion>
                 <groupId>org.apache.shardingsphere</groupId>
                 <artifactId>encrypt-core-common</artifactId>
@@ -63,13 +64,13 @@
         </exclusions>
     </dependency>
 
-        <dependency>
+       <dependency>
               <groupId>org.apache.shardingsphere</groupId>
               <artifactId>encrypt-core-common</artifactId>
               <version>4.1.1</version>
-              <scope>system</scope>
-              <systemPath>${project.basedir}/src/main/resources/lib/encrypt-core-common-4.1.1.jar</systemPath>
-          </dependency>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/src/main/resources/lib/encrypt-core-common-4.1.1.jar</systemPath>
+    </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>

@@ -1,0 +1,11 @@
+server:
+  port: 8092
+spring:
+    datasource:
+       type: com.alibaba.druid.pool.DruidDataSource
+       url: jdbc:oracle:thin:@11.1.198.168:1521:hnzf
+       driverClassName: oracle.jdbc.driver.OracleDriver
+       username: bap
+       password: bap
+mybatis:
+  mapperLocations: classpath*:mapping/*.xml

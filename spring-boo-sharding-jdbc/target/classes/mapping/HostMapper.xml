@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="wzj.com.mapper.HostMapper">
+    <resultMap id="BaseResultMap" type="wzj.com.dto.HostDto">
+        <id column="hostid" jdbcType="VARCHAR" property="hostId"/>
+        <result column="hostip" jdbcType="VARCHAR" property="hostIp"/>
+        <result column="username" jdbcType="VARCHAR" property="userName"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    hostid,hostip,username
+  </sql>
+
+
+    <select id="select" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select hostid,hostip from bcmp_host
+    </select>
+</mapper>

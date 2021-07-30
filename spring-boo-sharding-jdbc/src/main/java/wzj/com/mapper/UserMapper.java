@@ -4,6 +4,8 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import wzj.com.dto.UserDto;
 
+import java.util.List;
+
 /**
  * @ClassName UserMapper
  * @Description
@@ -18,4 +20,6 @@ public interface UserMapper {
     int updateById(@Param("id") long id, @Param("name") String name);
 
     UserDto getById(long id);
+
+    List<UserDto> selectTest();
 }

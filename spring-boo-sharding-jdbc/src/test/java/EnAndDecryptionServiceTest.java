@@ -8,6 +8,8 @@ import wzj.com.dto.HostDto;
 import wzj.com.dto.UserDto;
 import wzj.com.service.EnAndDecryptionService;
 
+import java.util.List;
+
 /**
  * @ClassName EnAndDecryptionServiceTest
  * @Description
@@ -35,8 +37,15 @@ public class EnAndDecryptionServiceTest {
 
     @Test
     public void selectTest() {
-        UserDto res = enAndDecryptionService.getById(1L);
+        UserDto res = enAndDecryptionService.getById(4L);
+
         System.out.println(res.toString());
+    }
+
+    @Test
+    public void conflictSqlTest(){
+        List<UserDto> res = enAndDecryptionService.selectTest();
+        System.out.println(res);
     }
 
     /*@Test

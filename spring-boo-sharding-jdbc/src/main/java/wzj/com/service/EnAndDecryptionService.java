@@ -8,6 +8,7 @@ import wzj.com.mapper.UserMapper;
 import wzj.com.dto.UserDto;
 
 import java.sql.*;
+import java.util.List;
 
 /**
  * @ClassName EncryptionService
@@ -259,6 +260,9 @@ public class EnAndDecryptionService {
         return userMapper.getById(id);
     }
 
+    public List<UserDto> selectTest() {
+        return userMapper.selectTest();
+    }
     public HostDto select(){
         return hostMapper.select();
     }
